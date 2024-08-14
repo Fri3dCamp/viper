@@ -43,9 +43,12 @@
     "@rollup/plugin-replace": "^5.0.7",
     "@rollup/plugin-terser": "^0.4.4",
     "eslint": "^9.9.0",
+    "glob": "^11.0.0",
     "globals": "^15.9.0",
+    "jsonfile": "^6.1.0",
     "rollup": "^4.20.0",
     "rollup-plugin-import-css": "^3.5.0",
-    "rollup-plugin-serve": "^1.1.1"
+    "rollup-plugin-serve": "^1.1.1",
+    "tar": "^7.4.3"
   }
 }
