@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup --config",
-    "start": "rollup --config --configDebug --watch"
+    "start": "rollup --config --configDebug --watch",
+    "predeploy": "python3 build.py",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@astral-sh/ruff-wasm-web": "^0.5.7",
@@ -43,6 +45,7 @@
     "@rollup/plugin-replace": "^5.0.7",
     "@rollup/plugin-terser": "^0.4.4",
     "eslint": "^9.9.0",
+    "gh-pages": "^6.1.1",
     "glob": "^11.0.0",
     "globals": "^15.9.0",
     "jsonfile": "^6.1.0",
